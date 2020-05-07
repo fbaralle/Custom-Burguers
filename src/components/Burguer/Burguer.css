@@ -1,0 +1,16 @@
+.Burguer {
+    width: 100%;
+    max-width: inherit;
+    margin: auto;
+    height: inherit;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.emptyMessage {
+    z-index: 3;
+    margin: 10% auto;
+    margin-top: 10%;
+}

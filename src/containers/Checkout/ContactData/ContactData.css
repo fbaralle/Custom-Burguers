@@ -1,0 +1,30 @@
+.Form {
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    
+}
+
+.Form label {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .Form {
+        width: 350px;
+        height: 400px;
+    }  /* show it on small screens */
+}
+
+@media screen and (min-width: 701px) and (max-width: 1280px) {
+    .Form {
+        width: 450px;
+        height: 450px;
+    }  /* show it on small screens */
+}

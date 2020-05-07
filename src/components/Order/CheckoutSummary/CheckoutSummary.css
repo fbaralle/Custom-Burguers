@@ -1,0 +1,12 @@
+.CheckoutSummary {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.Burguer {
+    width: 300px !important;
+    height: 300px !important;
+    margin-left: 10%;
+    margin-right: auto;
+}

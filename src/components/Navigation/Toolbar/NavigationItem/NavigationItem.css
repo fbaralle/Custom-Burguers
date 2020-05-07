@@ -1,0 +1,54 @@
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .NavigationItem {
+        margin: 0;
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+
+    .NavigationItem a {
+        color: black;
+        text-decoration: none;
+        width: 100%;
+        padding: 10px;
+        border-bottom: 4px solid transparent;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .NavigationItem a:hover,
+    .NavigationItem a:active,
+    .NavigationItem a.active {
+        background-color: #f0f4c3;
+        transition: all 0.1s ease-out;
+        border-left: 4px solid #afb42b;
+    }
+}
+  
+@media screen and (min-width: 701px) and (max-width: 1280px) {
+    .NavigationItem {
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .NavigationItem a {
+        color: #FAFAFA;
+        text-decoration: none;
+        box-sizing: border-box;
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .NavigationItem a:hover,
+    .NavigationItem a:active,
+    .NavigationItem a.active {
+        background-color: rgba(0,0,0,0.1);
+        transition: all 0.2s ease-out;
+        border-bottom: 4px solid #FAFAFA;
+    }
+}

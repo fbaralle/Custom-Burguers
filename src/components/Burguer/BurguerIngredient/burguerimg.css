@@ -1,0 +1,86 @@
+div.zoom:hover {
+    transform: scale(1.05) rotate(1deg);
+    transition: all 0.2s ease-out;
+    margin: 7% auto;
+    margin-bottom: -2%
+}
+
+div {
+    transition: all 0.1s ease-out 0.1s;
+}
+
+.BreadBottom {
+    height: 21%;
+    width: 80%;
+    background-image: url(./img/bread-bottom.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    margin: 5% auto;
+    margin-top: -5%;
+}
+
+.BreadTop {
+    height: 24%;
+    width: 80%;
+    background-image: url(./img/bread-top.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    z-index: 18;
+    margin: 5% auto;
+    margin-bottom: -8%;
+}  
+
+.Meat {
+    width: 80%;
+    height: 17%;
+    background-image: url(./img/meat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;   
+    margin-bottom: -8%;
+}
+
+.Cheese {
+    width: 90%;
+    height: 17%;
+    margin: 0 auto;
+    background-image: url(./img/cheese.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    margin-bottom: -14%;
+}
+
+.Salad {
+    width: 85%;
+    height: 22%;
+    margin: 0px auto;
+    background-image: url(./img/letucce.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    margin-bottom: -10%;
+}
+
+.Bacon {
+    width: 80%;
+    height: 10%;
+    background-image: url(./img/onion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: -5%;
+    
+}

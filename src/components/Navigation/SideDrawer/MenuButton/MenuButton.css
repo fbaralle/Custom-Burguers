@@ -1,0 +1,72 @@
+.MenuButton {
+    padding: 12px;
+    margin: 2px 15px;
+    border-radius: 40px;
+    z-index: 210;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (min-width: 701px) and (max-width: 1280px) {
+    .MenuButton { display: none; }  /* show it on small screens */
+}
+
+.MenuButton:hover {
+    background-color: rgba(0,0,0,0.2);
+    transition: all 0.3s ease-out;
+}
+
+.MenuButton span {
+  display: block;
+  width: 33px;
+  height: 3px;
+  margin: 6px auto;
+  position: relative;
+  background: #FAFAFA;
+  border-radius: 3px;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background-color 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;   
+}
+
+.MenuButton span.sp1
+{
+  transform-origin: 0% 0%;
+}
+nth-
+.MenuButton span.sp3
+{
+  transform-origin: 0% 100%;
+}
+
+.MenuButton.Open:hover {
+  background-color: #f0f4c3;
+  transition: all 0.3s ease-out;
+}
+
+.MenuButton.Open span {
+  background: #535313;
+}
+
+.MenuButton.Open span.sp1
+{
+  opacity: 1;
+  transform: rotate(39deg) translate(3px, -3px);
+}
+
+ .MenuButton.Open span.sp2
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+ .MenuButton.Open span.sp3
+{
+  transform: rotate(-39deg) translate(1px, 1px);
+}
