@@ -1,4 +1,4 @@
-#Custom Burguers delivery app. You choose the ingredients, then we deliver.
+#Custom Burguers delivery app (in development). You choose the ingredients, then we deliver.
 
 Technologies used: React, Redux, Material UI
 
